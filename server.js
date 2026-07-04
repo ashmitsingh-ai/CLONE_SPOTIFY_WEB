@@ -1,6 +1,6 @@
+require('dotenv').config();
 const app = require("./SCR/app");
 const connectDB = require("./SCR/DB/DB");
-require('dotenv').config();
 
 
 app.listen(3000, () =>{
@@ -8,4 +8,5 @@ app.listen(3000, () =>{
 });
 
 connectDB();
+
 
